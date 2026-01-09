@@ -68,11 +68,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans         &kp F1          &kp F2     &kp F3               &kp F4    &kp F5                       &kp F6     &kp F7    &kp F8     &kp F9             &kp F10   &kp F11
-&kp GRAVE      &kp LC(F1)      &kp F2     &kp LS(F3)           &kp F4    &kp F5                       &kp F6     &kp F7    &kp F8     &kp LS(F9)         &kp F10   &kp F12
-&kp LC(MINUS)  &kp EXCL        &kp AT     &kp HASH             &kp DLLR  &kp PRCNT                    &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR           &kp RPAR  &kp PIPE
-&kp LC(T)      &kp UNDERSCORE  &kp MINUS  &kp PLUS             &kp LBRC  &kp RBRC   &trans    &trans  &kp LBKT   &kp RBKT  &kp SEMI   &kp COLON          &kp BSLH  &kp EQUAL
-                               &kp LC(Q)  &kp LC(PAUSE_BREAK)  &trans    &trans     &trans    &trans  &trans     &trans    &trans     &kp LC(KP_DIVIDE)
+&trans         &kp F1          &kp F2     &kp F3               &kp F4    &kp F5                              &kp F6     &kp F7    &kp F8     &kp F9             &kp F10   &kp F11
+&kp GRAVE      &kp LC(F1)      &kp F2     &kp LS(F3)           &kp F4    &kp F5                              &kp F6     &kp F7    &kp F8     &kp LS(F9)         &kp F10   &kp F12
+&kp LC(MINUS)  &kp EXCL        &kp AT     &kp HASH             &kp DLLR  &kp PRCNT                           &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR           &kp RPAR  &kp PIPE
+&kp LC(T)      &kp UNDERSCORE  &kp MINUS  &kp PLUS             &kp LBRC  &kp RBRC          &trans    &trans  &kp LBKT   &kp RBKT  &kp SEMI   &kp COLON          &kp BSLH  &kp EQUAL
+                               &kp LC(Q)  &kp LC(PAUSE_BREAK)  &trans    &kp LS(LEFT_ALT)  &trans    &trans  &trans     &trans    &trans     &kp LC(KP_DIVIDE)
             >;
 
             sensor-bindings =
