@@ -68,11 +68,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F1            &kp F2         &kp F3            &kp F5     &kp F9         &kp F10                                   &trans           &trans     &trans     &trans      &trans       &trans
-&kp LC(F1)        &kp F2         &kp LS(F3)        &kp F5     &kp LS(F9)     &kp F11                                   &kp EXCLAMATION  &kp QMARK  &kp HASH   &kp DOLLAR  &kp PERCENT  &kp KP_SLASH
-&kp PRINTSCREEN   &kp LC(MINUS)  &kp LC(T)         &kp LC(Q)  &kp LC(SPACE)  &kp F12                                   &kp CARET        &kp AMPS   &kp ASTRK  &kp LPAR    &kp RPAR     &kp PIPE
-&kp LS(LEFT_ALT)  &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &kp PLUS       &kp EQUAL  &trans                 &trans  &kp LBKT         &kp RBKT   &kp SEMI   &kp COLON   &kp AT_SIGN  &kp BACKSLASH
-                                 &kp LC(KP_SLASH)  &kp HOME   &kp END        &trans     &kp LC(PAUSE_BREAK)    &trans  &trans           &trans     &trans     &trans
+&none             &none          &none             &none        &none            &none                      &trans           &trans     &trans     &trans      &trans       &trans
+&kp F1            &kp F2         &kp F3            &kp F5       &kp F9           &kp F10                    &kp EXCLAMATION  &kp QMARK  &kp HASH   &kp DOLLAR  &kp PERCENT  &kp KP_SLASH
+&kp LCTRL         &kp LSHFT      &kp KP_MINUS      &kp KP_PLUS  &kp KP_EQUAL     &kp F11                    &kp CARET        &kp AMPS   &kp ASTRK  &kp LPAR    &kp RPAR     &kp PIPE
+&kp LS(LEFT_ALT)  &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS    &kp PLUS         &kp F12  &trans    &trans  &kp LBKT         &kp RBKT   &kp SEMI   &kp COLON   &kp AT_SIGN  &kp BACKSLASH
+                                 &kp PRINTSCREEN   &none        &kp PAUSE_BREAK  &trans   &none     &trans  &trans           &trans     &trans     &trans
             >;
 
             sensor-bindings =
