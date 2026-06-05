@@ -101,7 +101,7 @@
                 <&inc_dec_kp PG_UP PG_DN>;
         };
 
-        num_layer {
+        adjust_layer {
             display-name = "num";
             bindings = <
 &none     &none            &none            &kp KP_DIVIDE    &kp KP_MULTIPLY  &none                              &out OUT_TOG  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
