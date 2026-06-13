@@ -69,7 +69,7 @@
 &kp F1            &none          &kp LC(KP_MINUS)  &kp F5                 &kp F9               &none                      &trans           &trans     &trans     &trans      &trans       &trans
 &kp LC(F1)        &kp F2         &kp F3            &kp F5                 &kp LS(F9)           &kp F10                    &kp EXCLAMATION  &kp QMARK  &kp HASH   &kp DOLLAR  &kp PERCENT  &kp KP_SLASH
 &kp LCTRL         &kp LSHFT      &kp MINUS         &kp KP_PLUS            &kp EQUAL            &kp F11                    &kp CARET        &kp AMPS   &kp ASTRK  &kp LPAR    &kp RPAR     &kp PIPE
-&kp LS(LEFT_ALT)  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(LC(KP_DIVIDE))  &kp LS(KP_SLASH)     &kp F12  &trans    &trans  &kp LBKT         &kp RBKT   &kp SEMI   &kp COLON   &kp AT_SIGN  &kp BACKSLASH
+&kp LS(LEFT_ALT)  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(LC(KP_DIVIDE))  &kp LC(KP_SLASH)     &kp F12  &trans    &trans  &kp LBKT         &kp RBKT   &kp SEMI   &kp COLON   &kp AT_SIGN  &kp BACKSLASH
                                  &kp PRINTSCREEN   &kp ENTER              &kp LC(PAUSE_BREAK)  &trans   &none     &trans  &trans           &trans     &trans     &trans
             >;
 
