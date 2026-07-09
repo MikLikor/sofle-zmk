@@ -22,15 +22,7 @@
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
-    combos {
-        compatible = "zmk,combos";
-
-        changetomouse {
-            bindings = <&mo 3>;
-            key-positions = <31 32>;
-            layers = <0>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
